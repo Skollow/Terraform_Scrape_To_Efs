@@ -1,0 +1,16 @@
+# Copy to terraform.tfvars and adjust. terraform.tfvars is git-ignored.
+
+# Required: your public IP as a /32 (curl https://checkip.amazonaws.com)
+allowed_ssh_cidr = "203.0.113.10/32"
+
+# Optional overrides (defaults shown)
+# aws_region          = "us-east-1"
+# availability_zones  = ["us-east-1a", "us-east-1b"]
+# project_name        = "scrape-to-efs"
+# instance_type       = "t3.micro"
+# ssh_public_key_path = "~/.ssh/tfkey.pub"
+# schedule_expression = "rate(1 day)"
+# source_url          = "https://api.apis.guru/v2/providers.json"
+
+# On Windows "python3" is often missing; use "python" or "py" instead.
+# python_command = "python"
